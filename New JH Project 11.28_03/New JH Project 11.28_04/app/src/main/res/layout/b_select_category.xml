@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".Z_DEL.SignIn.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/font_1"
+            android:paddingTop="50dp"
+            android:rotation="-90"
+            android:text="ANY"
+            android:textColor="#EB0000"
+            android:textSize="80dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_1"
+                android:gravity="left"
+                android:text="TIME"
+                android:textColor="#EB0000"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:fontFamily="@font/font_1"
+                android:gravity="left"
+                android:text="WHERE"
+                android:textColor="#EB0000"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/b_info_strength"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape"
+                    android:drawableLeft="@drawable/btn_icon"
+                    android:fontFamily="@font/font_1"
+                    android:paddingStart="15dp"
+                    android:text="근력 운동"
+                    android:textColor="#EB0000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/b_info_cardio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape"
+                    android:drawableLeft="@drawable/btn_icon"
+                    android:fontFamily="@font/font_1"
+                    android:paddingStart="15dp"
+                    android:text="유산소 운동"
+                    android:textColor="#EB0000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/b_info_level"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape"
+                    android:drawableLeft="@drawable/btn_icon"
+                    android:fontFamily="@font/font_1"
+                    android:paddingStart="15dp"
+                    android:text="Level"
+                    android:textColor="#EB0000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/b_info_motivation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape"
+                    android:drawableLeft="@drawable/btn_icon"
+                    android:fontFamily="@font/font_1"
+                    android:paddingStart="15dp"
+                    android:text="맞춤형 운동"
+                    android:textColor="#EB0000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/b_info_plan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape"
+                    android:drawableLeft="@drawable/btn_icon"
+                    android:fontFamily="@font/font_1"
+                    android:paddingStart="15dp"
+                    android:text="목표 설정"
+                    android:textColor="#EB0000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/b_info_calendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape"
+                    android:drawableLeft="@drawable/btn_icon"
+                    android:fontFamily="@font/font_1"
+                    android:paddingStart="15dp"
+                    android:text="캘린더"
+                    android:textColor="#EB0000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/b_info_signout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_shape"
+                android:drawableLeft="@drawable/btn_icon"
+                android:fontFamily="@font/font_1"
+                android:paddingStart="70dp"
+                android:text="로그 아웃"
+                android:textColor="#EB0000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
+

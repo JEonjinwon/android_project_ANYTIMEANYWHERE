@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newjhproject">
+
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <permission
+        android:name="com.cookandroid.cookmap.permission.MAPS_RECEIVE"
+        android:label="signature"></permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="AnyTime AnyWhere"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+
+        <activity android:name=".A_Sign.A_Loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="com.example.newjhproject.ALARM_START" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".A_Sign.B_Sign_In" />
+        <activity android:name=".A_Sign.C_Account" />
+        <activity android:name=".A_Sign.D_Find" />
+        <activity android:name=".A_Sign.E_Profile" />
+
+        <activity android:name=".B_Select.A_Select_Cat" />
+        <activity android:name=".B_Select.B_Calendar" />
+        <activity android:name=".B_Select.C_Plan" />
+        <activity android:name=".B_Select.D_Recommand" />
+        <activity android:name=".B_Select.E_Level" />
+        <activity android:name=".B_Select.F_Work_Out_End" />
+
+        <activity android:name=".C_Strength.A_Select_Strength" />
+        <activity android:name=".C_Strength.A_Select_Strength_Beginner" />
+        <activity android:name=".C_Strength.A_Select_Strength_Intermediatie" />
+        <activity android:name=".C_Strength.A_Select_Strength_Part" />
+        <activity android:name=".C_Strength.B_Select_Strength_Part_Abs" />
+        <activity android:name=".C_Strength.B_Select_Strength_Part_Back" />
+        <activity android:name=".C_Strength.B_Select_Strength_Part_Biceps" />
+        <activity android:name=".C_Strength.B_Select_Strength_Part_Chest" />
+        <activity android:name=".C_Strength.B_Select_Strength_Part_Glutes" />
+        <activity android:name=".C_Strength.B_Select_Strength_Part_Quads" />
+        <activity android:name=".C_Strength.B_Select_Strength_Part_Triceps" />
+
+        <activity android:name=".D_Cardio.A_Air" />
+        <activity android:name=".D_Cardio.B_Air_GoogleMap" />
+        <activity android:name=".D_Cardio.C_Air_Step" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDFDaUmkSiQEbpwtqk2KO8T9FN16TrrsaM" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+    </application>
+
+</manifest>

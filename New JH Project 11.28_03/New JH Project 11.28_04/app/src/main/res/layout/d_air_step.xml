@@ -1,0 +1,123 @@
+<LinearLayout xmlns:pdReport="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    pdReport:layout_width="match_parent"
+    pdReport:layout_height="match_parent"
+    pdReport:orientation="vertical"
+    pdReport:background="@drawable/background_pastel_blue"
+    tools:context=".Z_DEL.Cardio.Air_step">
+
+    <LinearLayout
+        pdReport:layout_width="match_parent"
+        pdReport:layout_height="wrap_content"
+        pdReport:layout_marginTop="30dp"
+        pdReport:gravity="top"
+        pdReport:orientation="vertical">
+
+        <TextView
+            pdReport:id="@+id/db_tv1"
+            pdReport:layout_width="match_parent"
+            pdReport:layout_height="wrap_content"
+            pdReport:layout_marginBottom="10dp"
+            pdReport:text="현재 까지 걸은 거리 : 00 m (한걸음 평균 70cm)"
+
+            pdReport:textColor="#003648"
+            pdReport:textSize="15dp"
+            pdReport:textStyle="bold" />
+
+        <TextView
+            pdReport:id="@+id/db_tv2"
+            pdReport:layout_width="match_parent"
+            pdReport:layout_height="wrap_content"
+            pdReport:text="본인 설정 목표 걸음 : "
+            pdReport:textColor="#003648"
+            pdReport:textSize="20dp"
+            pdReport:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        pdReport:layout_width="match_parent"
+        pdReport:layout_height="match_parent"
+        pdReport:layout_weight="111"
+        pdReport:gravity="center"
+        pdReport:orientation="horizontal">
+
+        <TextView
+            pdReport:id="@+id/cntView"
+            pdReport:layout_width="wrap_content"
+            pdReport:layout_height="fill_parent"
+            pdReport:gravity="center"
+            pdReport:textColor="#003458"
+            pdReport:textSize="100sp"
+            pdReport:textStyle="bold" />
+
+        <TextView
+            pdReport:id="@+id/tv_air"
+            pdReport:layout_width="wrap_content"
+            pdReport:layout_height="wrap_content"
+            pdReport:text=" 걸음"
+            pdReport:textColor="#003458"
+            pdReport:textSize="60dp"
+            pdReport:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        pdReport:layout_width="match_parent"
+        pdReport:layout_height="wrap_content"
+        pdReport:layout_weight="1"
+        pdReport:gravity="bottom"
+        pdReport:orientation="horizontal">
+
+        <ToggleButton
+            pdReport:id="@+id/start_Btn"
+            pdReport:layout_width="wrap_content"
+            pdReport:layout_height="match_parent"
+            pdReport:layout_alignParentBottom="true"
+            pdReport:layout_marginLeft="20dp"
+            pdReport:layout_marginRight="10dp"
+            pdReport:layout_marginBottom="30dp"
+            pdReport:layout_weight="1"
+            pdReport:background="@drawable/btn_shape"
+            pdReport:onClick="mOnClick"
+            pdReport:textColor="#003458"
+            pdReport:textOff="Start"
+            pdReport:textOn="Stop"
+            pdReport:textStyle="bold"
+            tools:ignore="OnClick" />
+
+        <Button
+            pdReport:id="@+id/resetBtn"
+            pdReport:layout_width="wrap_content"
+            pdReport:layout_height="match_parent"
+            pdReport:layout_alignParentBottom="true"
+            pdReport:layout_marginLeft="10dp"
+            pdReport:layout_marginRight="10dp"
+            pdReport:layout_marginBottom="30dp"
+            pdReport:layout_weight="1"
+            pdReport:background="@drawable/btn_shape"
+            pdReport:onClick="mOnClick"
+            pdReport:text="Reset"
+            pdReport:textColor="#003458"
+            pdReport:textStyle="bold"
+            tools:ignore="OnClick" />
+
+        <Button
+            pdReport:id="@+id/step_btn"
+            pdReport:layout_width="wrap_content"
+            pdReport:layout_height="match_parent"
+            pdReport:layout_alignParentBottom="true"
+            pdReport:layout_marginLeft="10dp"
+            pdReport:layout_marginRight="20dp"
+            pdReport:layout_marginBottom="30dp"
+            pdReport:layout_weight="1"
+            pdReport:background="@drawable/btn_shape"
+            pdReport:onClick="mOnClick"
+            pdReport:text="걸음 저장"
+            pdReport:textColor="#003458"
+            pdReport:textSize="15dp"
+            pdReport:textStyle="bold"
+            tools:ignore="OnClick" />
+
+
+    </LinearLayout>
+</LinearLayout>

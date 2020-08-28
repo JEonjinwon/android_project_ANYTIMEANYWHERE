@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/c_begin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_shape"
+        android:drawableLeft="@drawable/btn_icon2"
+        android:fontFamily="@font/font_1"
+        android:paddingStart="30dp"
+        android:text="초급자"
+        android:textColor="#003458"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/c_inter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_shape"
+        android:drawableLeft="@drawable/btn_icon2"
+        android:fontFamily="@font/font_1"
+        android:paddingStart="30dp"
+        android:text="상급자"
+        android:textColor="#003458"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/c_part"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_shape"
+        android:drawableLeft="@drawable/btn_icon2"
+        android:fontFamily="@font/font_1"
+        android:paddingStart="30dp"
+        android:text="부위별"
+        android:textColor="#003458"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

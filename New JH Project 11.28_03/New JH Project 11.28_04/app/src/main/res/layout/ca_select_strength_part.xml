@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pastel_blue"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Z_DEL.SignIn.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/font_1"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="운동 부위 선택 "
+            android:textColor="#003458"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/abs1"
+            android:fontFamily="@font/font_1"
+            android:text="복근"
+            android:textColor="#003458"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/quads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/quads1"
+            android:fontFamily="@font/font_1"
+            android:text="허벅지"
+            android:textColor="#003458"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/glutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/glutes1"
+            android:fontFamily="@font/font_1"
+            android:text="엉덩이"
+            android:textColor="#003458"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/triceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/triceps1"
+            android:fontFamily="@font/font_1"
+            android:text="삼두근"
+            android:textColor="#003458"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/biceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/biceps1"
+            android:fontFamily="@font/font_1"
+            android:text="이두박근"
+            android:textColor="#003458"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/back1"
+            android:fontFamily="@font/font_1"
+            android:text="등"
+            android:textColor="#003458"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/chest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/chest1"
+            android:fontFamily="@font/font_1"
+            android:text="가슴"
+            android:textColor="#003458"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

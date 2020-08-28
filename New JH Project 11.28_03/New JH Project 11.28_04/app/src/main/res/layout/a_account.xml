@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pastel_blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.js.firebaseauthentication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="회원가입"
+        android:textColor="#EB0000"
+        android:textSize="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textColor="#003458"
+        android:text="회원가입이 필요합니다.\n Email로 등록해 주세요."
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:hint="Enter email"
+        android:textColorHint="#aaaaaa"
+        android:textColor="#003458"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textColor="#003458"
+        android:layout_marginBottom="30dp"
+        android:hint="Enter password"
+        android:textColorHint="#aaaaaa"
+        android:inputType="textPassword"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EB0000"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_shape"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="20dp"
+        android:text="회원가입"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textViewSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_shape"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:paddingRight="50dp"
+        android:paddingBottom="20dp"
+        android:text="기존 회원 클릭"
+        android:textAlignment="center"
+        android:textColor="#EB0000"
+        android:textSize="25dp" />
+
+
+</LinearLayout>

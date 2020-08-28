@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_pastel_blue"
+    tools:context="com.example.newjhproject.MainActivity">
+
+    <!--
+    datePicker - 날짜를 선택하는 달력
+    viewDatePick - 선택한 날짜를 보여주는 textView
+    edtDiary - 선택한 날짜의 일기를 쓰거나 기존에 저장된 일기가 있다면 보여주고 수정하는 영역
+    btnSave - 선택한 날짜의 일기 저장 및 수정(덮어쓰기) 버튼
+     -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <DatePicker
+            android:id="@+id/claendar_datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="#828282"
+            android:fontFamily="@font/font_1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5sp">
+
+
+        <!-- <TextView
+             android:id="@+id/t_calendar_viewDatePick"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#464646"
+             android:fontFamily="@font/font_1"
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="20dp"
+             android:gravity="left"
+             android:textSize="25dp"
+             android:text=""
+             android:textColor="#ffffff"
+             android:textStyle="bold" />!-->
+
+        <EditText
+            android:id="@+id/e_calendar_Diary"
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:background="#828282"
+            android:ems="10"
+            android:hint="운동 일지를 입력하세요.  "
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#bebebe"
+            android:fontFamily="@font/font_1"
+            android:gravity="start|center_vertical"
+            android:inputType="text|textMultiLine|textCapSentences"
+            android:padding="7sp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/b_claendar_Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_1"
+            android:background="@drawable/btn_shape"
+            android:layout_marginRight="90dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="#eb0000"
+            android:text="운동 일지 저장" />
+    </LinearLayout>
+</LinearLayout>
